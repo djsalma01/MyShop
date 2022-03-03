@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ outline: 0;
+ box-sizing: border-box;
+ font-family:'Padauk', sans-serif;
+}
+ 
+.BoxContainer{
+ position: relative;
+ top: 25%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ background: rgba(0, 0, 0, 0.3);
+ max-width: 950px;
+ width: 100%;
+ padding: 15px;
+ border-radius: 5px;
+ display: flex;
+ justify-content: space-between;
+}
+ 
+.BoxContainer .input{
+ width: 85%;
+ padding: 15px 20px;
+ border: none;
+ border-radius: 5px;
+ font-weight: bold;
+}
+ 
+.search_button{
+ background: #F2F3F4;
+ width: 50px;
+ border-radius: 5px;
+ position: relative;
+ cursor: pointer;
+}
+ 
+.search_button .fas{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ font-size: 18px;
+}

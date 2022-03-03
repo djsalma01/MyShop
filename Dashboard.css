@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Merriweather+Sans&family=Padauk:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+/*HEADER*/
+nav {
+font-family: 'Padauk', sans-serif;
+}
+
+.navbar{
+margin-top: -15px;
+}
+
+.navbar-brand {
+width: 60px !important;
+height:70px !important;
+}
+
+.nav-link , .navbar-brand{
+color: #f4f4f4;
+cursor: pointer;
+}
+.nav-link{
+padding-left: .5rem !important;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+width: 30px !important;
+height:30px !important;
+margin-right: 20px;
+outline: none;
+border: none;
+}
+
+.d-md-none {
+width: 30px !important;
+height:30px !important;
+display: flex;
+margin-left: 100px;
+}
+
+.nav-link:hover{
+background: #f4f4f4;
+color: #f97300;
+
+}
+.navbar-collapse{
+justify-content: flex-end;
+}
+
+.navbar-toggler{
+background:#fff !important;
+}
+
+.newmargin {
+margin-right: 30px;
+}
+
+body {
+background: #f9f9f9;
+font-size: 16px;
+font-family: 'Raleway', sans-serif
+}
+
+.container {
+margin-top: 200px
+}
+
+.title {
+color: #1a1a1a;
+text-align: center;
+margin-bottom: 10px
+}
+
+.content {
+position: relative;
+width: 90%;
+max-width: 400px;
+margin: auto;
+overflow: hidden
+}
+
+.content .content-overlay {
+background: rgba(0, 0, 0, 0.7);
+position: absolute;
+height: 99%;
+width: 100%;
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+opacity: 0;
+-webkit-transition: all 0.4s ease-in-out 0s;
+-moz-transition: all 0.4s ease-in-out 0s;
+transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+opacity: 1
+}
+
+.content-image {
+width: 100%
+}
+
+img {
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+border-radius: 5px
+}
+
+.content-details {
+position: absolute;
+text-align: center;
+padding-left: 1em;
+padding-right: 1em;
+width: 100%;
+top: 50%;
+left: 50%;
+opacity: 0;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+-webkit-transition: all 0.3s ease-in-out 0s;
+-moz-transition: all 0.3s ease-in-out 0s;
+}
+
+ .content:hover .content-details {
+top: 50%;
+left: 50%;
+opacity: 1
+}
+.content-details h3 {
+color: #fff;
+font-weight: 500;
+letter-spacing: 0.15em;
+margin-bottom: 0.5em;
+text-transform: uppercase
+}
+.content-details p {
+color: #fff;
+font-size: 0.8em
+}
+.fadeIn-bottom {
+top: 80%
+}

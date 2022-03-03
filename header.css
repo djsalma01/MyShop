@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Merriweather+Sans&family=Padauk:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+/*HEADER*/
+nav {
+  font-family: 'Padauk', sans-serif;
+}
+
+.navbar{
+	margin-top: -15px;
+}
+
+.navbar-brand {
+  width: 60px !important;
+  height:70px !important;
+}
+
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+  padding-left: .5rem !important;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+  width: 30px !important;
+  height:30px !important;
+  margin-right: 20px;
+  outline: none;
+  border: none;
+}
+
+.d-md-none {
+  width: 30px !important;
+  height:30px !important;
+  display: flex;
+  margin-left: 100px;
+}
+
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #f97300;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+
+.navbar-toggler{
+  background:#fff !important;
+}
+
+.newmargin {
+  margin-right: 30px;
+}
+
+/*FOOTER*/
+.pagination {
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  display: inline-block;
+  text-align: left
+}
+
+.pagination li {
+  display: inline;
+  outline: white;
+}
+
+.pagination li a {
+  display: inline-block;
+  outline: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  color: #000
+}
+
+.pagination li a {
+  border-radius: 0px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s
+}
+
+.pagination li a.active {
+  background-color: black;
+  color: #fff
+}
+
+.pagination li a.active:hover {
+  background-color: rgb(78, 76, 76);
+  color: #fff
+}
+
+.pagination li a:hover:not(.active) {
+  background-color: #ddd;
+}

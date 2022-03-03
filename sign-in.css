@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Merriweather+Sans&family=Padauk:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  width: 100vh;
+  
+  box-sizing: border-box;
+  background-image: url('images/signin-signup-bgd.png');
+}
+
+form {
+  width: 500px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+input {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: rgba(240, 233, 233, 0.739);
+}
+
+label {
+  color: rgb(34, 34, 34);
+  font-size: 20px;
+  padding: 10px;
+}
+
+button {
+  margin:10px;
+  background: rgb(61, 61, 61);
+  padding: 15px 15px;
+  padding-right: 50px;
+  color: whitesmoke;
+  border-radius: 5px;
+  margin-right: 10px;
+  border:none;
+  width: 95%;
+}
+
+button:hover {
+  background: rgb(112, 112, 112); 
+}
+
+
+a {
+  margin:10px;
+  background: rgb(61, 61, 61);
+  padding: 15px 15px;
+  padding-right: 50px;
+  color: whitesmoke;
+  border-radius: 5px;
+  margin-right: 10px;
+  border:none;
+  width: 95%;
+}
+
+a:hover {
+  background: rgb(112, 112, 112); 
+}
+
+.error {
+  background: rgb(235, 175, 165);
+  color: rgb(207, 74, 74);
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.validated {
+  background: rgb(154, 230, 119);
+  color: rgb(109, 108, 108);
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.verify {
+  padding: 5px;
+  width: 50%;
+}
+
+.stayCo {
+  
+}
